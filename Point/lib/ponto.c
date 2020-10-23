@@ -6,7 +6,6 @@ extern struct Objeto ponto;
 // Função responśavel por desenhar o ponto
 
 void draw_point() {
-
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);    // Limpa o buffer de cor
     glPushMatrix();                                        // Empilha a matriz atual
     gluLookAt(0, 2.2, -5.2, 0, -0.12, 0, 0, 1, 0);         // Define a posição de visualização
@@ -23,7 +22,6 @@ void draw_point() {
 // Função responsável por redimensionar a janela
 
 void resize(int width, int height) {
-
     glViewport(0, 0, width, height);                        // Define o formato da janela
     glMatrixMode(GL_PROJECTION);                            // Aplica operações de pilha à matriz de projeção
     glLoadIdentity();                                       // Substitui a matriz atual pela matriz identidade para manter o objeto na posição
