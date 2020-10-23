@@ -10,6 +10,7 @@ void draw_point() {
     glPushMatrix();                                        // Empilha a matriz atual
     gluLookAt(0, 2.2, -5.2, 0, -0.12, 0, 0, 1, 0);         // Define a posição de visualização
     
+    glPointSize(2);                                        // Define o tamanho do ponto
     glBegin(GL_POINTS);                                    // Define qual objeto será desenhado (ponto)
     glColor3f(1.0f, 1.0f, 1.0f);                           // Define a cor atual do vértice
     glVertex2f(ponto.x, ponto.y);                          // Define as coordenadas do vértice
