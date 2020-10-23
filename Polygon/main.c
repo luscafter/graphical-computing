@@ -12,7 +12,7 @@
  Ciência da Computação - Computação Gráfica, 2020.2
  Professor: Necio de Lima Veras
  Discente: Lucas de Araújo Brito
- https://github.com/luscafter/graphical-computing/polygon
+ https://github.com/luscafter/graphical-computing
 
 */
 
@@ -20,27 +20,27 @@ float value;
 
 int main(int argc, char* argv[])
 {
-	setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
 
-	bool invalid;
+    bool invalid;
 	
-	do {
-		system(CLEAR);
-		invalid = false;
+    do {
+	system(CLEAR);
+        invalid = false;
 
-		printf("\n Para formar um cubo de tamanho perfeito, é necessário receber valores iguais para " GREEN
-			   "X" RESET ", " GREEN "Y" RESET " e " GREEN "Z" RESET ".\n\n Informe um valor abaixo:"
-			   "\n\n [" GREEN "x" RESET ", " GREEN "y" RESET ", " GREEN "z" RESET "] = ");
+	printf("\n Para formar um cubo de tamanho perfeito, é necessário receber valores iguais para " GREEN
+        "X" RESET ", " GREEN "Y" RESET " e " GREEN "Z" RESET ".\n\n Informe um valor abaixo:"
+        "\n\n [" GREEN "x" RESET ", " GREEN "y" RESET ", " GREEN "z" RESET "] = ");
 
     	scanf("%f", &value);
 
     	if(value < 0.1f || value > 2.5f) {
-    		printf("\n [" RED "!" RESET "] Informe um valor (tamanho) entre 0.1 e 2.5\n");
-    		invalid = true;
-    		delay();
+    	    printf("\n [" RED "!" RESET "] Informe um valor (tamanho) entre 0.1 e 2.5\n");
+    	    invalid = true;
+    	    delay();
     	}
-
-	} while(invalid);
+	    
+    } while(invalid);
 
     glutInit(&argc, argv);                                        // Inicializa a biblioteca GLUT
     glutInitContextVersion(3, 2);                                 // Ópcional por compatibilidade de APIs                  
