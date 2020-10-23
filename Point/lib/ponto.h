@@ -4,8 +4,8 @@
 #define PONTO_H_INCLUDED
 
 struct Objeto {
-	GLfloat x;
-	GLfloat y;
+    GLfloat x;
+    GLfloat y;
 } ponto;
 
 void draw_point();
