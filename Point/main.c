@@ -19,11 +19,11 @@ struct Objeto ponto;
 
 int main(int argc, char* argv[])
 {
-	setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
 	
-	system(CLEAR);
+    system(CLEAR);
 
-	printf("\n Para formar um ponto, é necessário receber dois valores para "
+    printf("\n Para formar um ponto, é necessário receber dois valores para "
     GREEN "X" RESET " e " GREEN "Y" RESET ".\n\n Informe os valores abaixo:\n\n [" GREEN "x" RESET "] = ");
     scanf("%f", &ponto.x);
 
