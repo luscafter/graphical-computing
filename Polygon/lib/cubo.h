@@ -8,9 +8,9 @@
 Ao construir a struct abaixo é gerado o seguinte erro: "error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token"
 
 struct Objeto {
-	GLfloat x[36];
-	GLfloat y[36];
-	GLfloat z[36];
+    GLfloat x[36];
+    GLfloat y[36];
+    GLfloat z[36];
 } vertex, normal, colors;
 
 */
