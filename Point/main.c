@@ -11,7 +11,7 @@
  Ciência da Computação - Computação Gráfica, 2020.2
  Professor: Necio de Lima Veras
  Discente: Lucas de Araújo Brito
- https://github.com/luscafter/graphical-computing/point
+ https://github.com/luscafter/graphical-computing
 
 */
 
