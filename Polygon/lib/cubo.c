@@ -113,7 +113,7 @@ normal.z[] = { 1,  1,  1,  1,  1,  1,    // frente
 
 */
 
-// Vetor responsável por armazenar as cores de cada vértice
+// Vetores responsáveis por armazenar as cores de cada vértice
 
 GLfloat colors_x[] = { 1, 1, 1, 1, 1, 1,    // frente
                        1, 1, 0, 0, 0, 1,    // direita
@@ -161,7 +161,7 @@ colors.z[] = { 1, 0, 0, 0, 1, 1,    // frente
 
 */
 
-// Função responśavel por moldar o cubo
+// Função responsável por moldar o cubo
 
 void draw_cube() {
 
@@ -226,7 +226,6 @@ void draw_cube() {
         glVertex3f(vertex.x[i], vertex.y[i], vertex.z[i]);
 
         */
-
     }
 
     glEnd();   // Delimita os vértices, finalizando a função
