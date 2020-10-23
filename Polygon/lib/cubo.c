@@ -288,8 +288,8 @@ void resize(int width, int height) {
 
     glViewport(0, 0, width, height);                        // Define o formato da janela
     glMatrixMode(GL_PROJECTION);                            // Aplica operações de pilha à matriz de projeção
-    glLoadIdentity();                                       // Substitui a matriz atual pela matriz identidade
+    glLoadIdentity();                                       // Substitui a matriz atual pela matriz identidade para manter o objeto na posição
     gluPerspective(62, (float)(width) / height, 1, 600);    // Define a perspectiva de visualização
     glMatrixMode(GL_MODELVIEW);                             // Aplica operações de pilha à matriz de modeview
-    glLoadIdentity();                                       // Substitui a matriz atual pela matriz identidade
+    glLoadIdentity();                                       // Substitui a matriz atual pela matriz identidade para manter o objeto na posição
 }
