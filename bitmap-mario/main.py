@@ -1,7 +1,7 @@
 import matplotlib.pyplot as p
 import numpy as n
 
-# https://github.com/luscafter/graphical-computing/bitmap-mario/
+# https://github.com/luscafter/graphical-computing
 
 # Teste o software na ferramenta Colab:
 # https://colab.research.google.com/
